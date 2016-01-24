@@ -9,7 +9,7 @@
 ### get: gets data of matrix
 ### set: sets data of matrix
 ### getInverse: gets cached inverse if exists
-### setInverse: sets cached matrix
+### setInverse: sets cached inverse
 makeCacheMatrix <- function(x = matrix()) 
 {
   i <- NULL
